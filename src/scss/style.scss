@@ -1,6 +1,8 @@
-$bg-color: blue;
-$primary: red;
+$theme-colors: (
+  "primary": #900
+);
 
-body {
-    background: $bg-color;
-}
+
+// Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";

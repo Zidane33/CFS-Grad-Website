@@ -1,13 +1,18 @@
 $theme-colors: (
-  "primary": #900
+  "primary": lightgreen
 );
 
-#lemon {
-  background-image: url("../demo/demo-assets/citrus-fruit-colorful-delicious-2146386.jpg");
+
+
+.wrapper {
+  position: relative;
 }
 
-#person {
-  background-image: url('../demo/demo-assets/attractive-beautiful-beauty-1953962.jpg');
+.header {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: #900;
 }
 
 // Include all of Bootstrap

@@ -1,0 +1,43 @@
+$theme-colors: (
+  "dark": black
+);
+
+#logo {
+  filter: invert(100%);
+}
+
+.nav--links {
+  color: white;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.img1 {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  filter: blur(0.5px);
+}
+
+#header--button {
+  position: absolute; 
+  top: 60%; 
+  left: 75px;
+}
+.wrapper {
+  position: relative;
+  height: 50vh;
+  width: auto;
+}
+
+#header--text {
+  position: absolute;
+  top: 15%;
+  left: 50px;
+  white-space: pre-line;
+}
+// Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";

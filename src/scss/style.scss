@@ -6,12 +6,8 @@ $theme-colors: (
   filter: invert(100%);
 }
 
-.nav--links {
+.nav-link {
   color: white;
-  &:hover {
-    text-decoration: none;
-    color: white;
-  }
 }
 
 .img1 {

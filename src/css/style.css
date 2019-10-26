@@ -1,11 +1,8 @@
 #logo {
   filter: invert(100%); }
 
-.nav--links {
+.nav-link {
   color: white; }
-  .nav--links:hover {
-    text-decoration: none;
-    color: white; }
 
 .img1 {
   width: 100%;

@@ -31,6 +31,15 @@
   height: 20vw;
   object-fit: cover; }
 
+#sidebar--wrapper {
+  min-height: 100vh;
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  width: 15rem; }
+
+#page-content-wrapper {
+  min-width: 100vw; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -3785,7 +3794,7 @@ input[type="button"].btn-block {
     z-index: 2;
     color: #fff;
     background-color: #007bff;
-    border-color: #007bff; }
+    border-color: white; }
 
 .list-group-horizontal {
   flex-direction: row; }

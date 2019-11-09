@@ -51,8 +51,8 @@ $theme-colors: (
 #page-content-wrapper {
   min-width: 100vw;
 }
-
+// list border color and behaviour
 $list-group-active-border-color: white;
-// Include all of Bootstrap
 
+// Include all of Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
